@@ -31,7 +31,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _GlowIntencity: 0
-    - _SpeedX: 0.1
+    - _SpeedX: 0.34
     - _SpeedY: 0
     - _UseGlow: 1
     m_Colors:
