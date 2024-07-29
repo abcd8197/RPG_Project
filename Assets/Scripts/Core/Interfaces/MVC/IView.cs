@@ -1,10 +1,7 @@
-namespace CodeJay
+namespace CodeJay.MVC
 {
-    namespace Interface
+    public interface IView
     {
-        public interface IView
-        {
-
-        }
+        void UpdateView();
     }
 }

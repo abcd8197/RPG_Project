@@ -1,10 +1,8 @@
-namespace CodeJay
+namespace CodeJay.MVC
 {
-    namespace Interface
+    public interface IModel
     {
-        public interface IModel
-        {
-
-        }
+        event System.Action OnModelChanged;
+        void NotifyModelChanged();
     }
 }

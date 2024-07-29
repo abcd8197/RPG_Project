@@ -1,10 +1,8 @@
-namespace CodeJay
+namespace CodeJay.MVC
 {
-    namespace Interface
+    public interface IController
     {
-        public interface IController
-        {
-
-        }
+        void SetModel(IModel model);
+        void SetView(IView view);
     }
 }
